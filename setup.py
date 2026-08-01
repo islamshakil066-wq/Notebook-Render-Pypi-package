@@ -9,7 +9,7 @@ __version__ = "0.0.1"
 REPO_NAME = "Notebook-Render-Pypi-package"
 AUTHOR_USER_NAME = "islamshakil066-wq" 
 AUTHOR_EMAIL = "islamshakil066@gmail.com"
-SRC_REPO = "NoteBookRender" 
+SRC_REPO = "NotebookVidioRenderer" 
 
 
 

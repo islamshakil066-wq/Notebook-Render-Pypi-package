@@ -12,7 +12,6 @@ This repository contains the source code and documentation for the NoteBook  Ren
 conda create -n inrenderer python=3.8 -y
 ```
 
-
 2. Activate the virtual environment
 ```bash
 conda activate inrenderer

@@ -1,5 +1,5 @@
-from NoteBookRender.logger import logger
-from NoteBookRender.custom_exception import InvalidURLException
+from NotebookVidioRenderer.logger import logger
+from NotebookVidioRenderer.custom_exception import InvalidURLException
 
 logger.info("This is an info message")
 
