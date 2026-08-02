@@ -6,10 +6,10 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.1"
     
-REPO_NAME = "Notebook-Render-Pypi-package"
+REPO_NAME = "NotebookVideo-Renderer-Pypi-package"
 AUTHOR_USER_NAME = "islamshakil066-wq" 
 AUTHOR_EMAIL = "islamshakil066@gmail.com"
-SRC_REPO = "NotebookVidioRenderer" 
+SRC_REPO = "NotebookVideoRenderer" 
 
 
 

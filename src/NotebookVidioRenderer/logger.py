@@ -16,4 +16,4 @@ logging.basicConfig(
     ],
 )
 
-logger = logging.getLogger("NoteBookRender")
+logger = logging.getLogger("NoteBookVideoRenderer")
