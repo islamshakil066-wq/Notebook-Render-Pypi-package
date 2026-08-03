@@ -1,13 +1,21 @@
-from NotebookVidioRenderer.custom_exception import InvalidURLException
-from NotebookVidioRenderer.logger import logger
+from NotebookVideoRenderer.custom_exception import InvalidURLException
+from NotebookVideoRenderer.logger import logger
 import re
 from IPython.display import HTML, display
 
 
-def render_youtube_vidio(url: str, width: int = 800, height: int = 315):
+def render_youtube_video(url: str, width: int = 800, height: int = 315):
     try:
-        regex = r"^(?:v=|\/)([0-9A-Za-z_-]{11}).*"
+        regex = (
+            
+            r"(?:https?://)?"
+            r"(?:www\.|m\.)?"
+            r"(?:youtube\.com/(?:watch\?v=|embed/)|youtu\.be/)"
+            r"([A-Za-z0-9_-]{11})"
+        )
+
         match = re.search(regex, url)
+        
         
         if not match:
             raise InvalidURLException(f"Invalid YouTube URL : {url}.")
