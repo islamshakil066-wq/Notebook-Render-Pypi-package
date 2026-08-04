@@ -1,7 +1,7 @@
 from IPython import display
 import urllib.request
-from NoteBookVdioRenderer.custom_exception import InvalidURLException
-from NoteBookVdioRenderer.logger import logger
+from NoteBookVideoRenderer.custom_exception import InvalidURLException
+from NoteBookVideoRenderer.logger import logger
 
 
 

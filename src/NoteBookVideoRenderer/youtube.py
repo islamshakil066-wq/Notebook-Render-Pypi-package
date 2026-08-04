@@ -1,5 +1,5 @@
-from NotebookVideoRenderer.custom_exception import InvalidURLException
-from NotebookVideoRenderer.logger import logger
+from NoteBookVideoRenderer.custom_exception import InvalidURLException
+from NoteBookVideoRenderer.logger import logger
 import re
 from IPython.display import HTML, display
 
